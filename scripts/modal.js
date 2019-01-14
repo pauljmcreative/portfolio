@@ -41,7 +41,7 @@ $(document).ready(function () {
       tag: 'A Social Media Experiment.',
       detail: 'Exchangagram, an instagram clone takes a closer look at component relationships within REACT. What better way than exploring one of todays most popular social media apps, showcasing many complex relationships.',
       Technologies: 'REACT | Node.js | JWT Authorization | Bcrypt | Multer | Deployed on Github.io and Netlify',
-      link: 'http://exchangagram.herokuapp.com'
+      link: 'https://pauljmcreative.github.io/exchangagram-frontend/'
     },
     devconnect: {
       title: 'Dev Connect',

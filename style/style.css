@@ -716,9 +716,9 @@ section {
       font-size: 18px;
       color: #f5f5f5;
       margin-top: 50px;}
-      .contact-info div {
+      .contact-info a {
         padding: 15px; }
-      .contact-info div:hover {
+      .contact-info a:hover {
         color: #FC4A1A; }
     /* #contact svg {
       position: absolute;
@@ -978,7 +978,7 @@ footer {
       font-weight: 600;
       color: #64c1e0; }
     .contact-info {
-      font-size: 25px;
+      font-size: 20px;
       color: #f5f5f5;
       margin-top: 50px;}
       .contact-info div {
