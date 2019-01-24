@@ -1,40 +1,6 @@
 $(document).ready(function () {
 
   // MODAL
-  // var modalText = {
-  //   roambi: {
-  //     title: 'Roambi.com',
-  //     tag: 'BUSINESS ANALYTICS.',
-  //     detail: 'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-  //     link: 'http://www.roambi.com'
-  //   },
-  //   walker: {
-  //     title: 'WalkerTracker',
-  //     tag: 'PERFORMANCE METRICS.',
-  //     detail: 'Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.',
-  //   },
-  //   powur: {
-  //     title: 'Powur.com',
-  //     tag: 'MULTI-LEVEL MARKETING.',
-  //     detail: 'Powur is a multi-level marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.',
-  //     link: 'http://www.powur.com/with/42'
-  //   },
-  //   mystand: {
-  //     title: 'MyStand',
-  //     tag: 'CROWD-FUNDED CHARITY.',
-  //     detail: 'MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.',
-  //   },
-  //   never: {
-  //     title: 'NeverSurrender',
-  //     tag: 'ALS AWARENESS.',
-  //     detail: 'NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.',
-  //   },
-  //   themall: {
-  //     title: 'The Mall',
-  //     tag: 'PEER GUIDED SHOPPING.',
-  //     detail: 'The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.',
-  //   }
-  // };
   var modalText = {
     exchangagram: {
       title: 'Exchangagram',
@@ -48,15 +14,8 @@ $(document).ready(function () {
       tag: 'the best way for employers to connect with web development students.',
       detail: 'A full-stack app prioritizing the whole student so employers can get a well-rounded perspective of potential talent by viewing an detailed profile and a projects section where work can be viewed quickly and easily.',
       Technologies: 'Django | Python | Deployed on Heroku',
-      link: 'https://django-devconnect-devteam.herokuapp.com'
+      link: 'https://devconnect3.herokuapp.com/'
     },
-    // wayfarer: {
-    //   title: 'Wayfarer',
-    //   tag: 'Tip-sharing app for the travel community.',
-    //   detail: 'Wayfarer utilizes relationships to allow users to view others travel tips and leave their own as well from their favorite destinations around the world. Built with a Node.js server and making use of REACT for front-end visuals.',
-    //   Technologies: 'REACT | Node.js',
-    //   link: 'http://wayfarer.netlify.com'
-    // },
   };
 
   $('#gallery .button').on('click', function () {

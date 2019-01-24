@@ -2,15 +2,16 @@ $(function () {
 
   var isMobile;
   if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    isMobile = true;
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      isMobile = true;
 
-    // Mobile height fix
-    $('.height-fix').each(function () {
-      var h = $(this).height();
-      $(this).height(h)
-    })
-  }
-
+      // Mobile height fix
+      $('.height-fix').each(function () {
+        var h = $(this).height();
+        $(this).height(h)
+      })
+    }
+  };
   // RESIZE RESETS
   $(window).resize(function () {
     posFilterBar($('.filter').first());
@@ -220,7 +221,7 @@ $(function () {
     e.preventDefault();
 
     $.ajax({
-      url: "https://formspree.io/paul@pauljmphoto.com",
+      url: "https://formspree.io/paul@pauljmcreative.com",
       method: "POST",
       data: { message: $('form').serialize() },
       dataType: "json"
